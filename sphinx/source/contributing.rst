@@ -103,8 +103,8 @@ the functional changes should also include at least:
   contributions end with (in parentheses) the GitHub user handle of the
   contributor, a slash, and a link to the pull request (see CHANGELOG.rst for
   preexisting examples).
-* A change in the version number in both setup.py and pdpyras.py, to a new
-  version that follows `Semantic Versioning <https://semver.org/>`_.
+* A change in the version number in both setup.py and pdpyras/__init__.py,
+  to a new version that follows `Semantic Versioning <https://semver.org/>`_.
 * Rebuilt HTML documentation
 
 The HTML documentation can be rebuilt with the ``docs`` make target:

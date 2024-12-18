@@ -16,7 +16,7 @@ If ``pip`` is available, it can be installed via:
     pip install pdpyras
 
 Alternately, if the dependencies (Requests_ and "deprecation" Python libraries)
-have been installed locally, one can download ``pdpyras.py`` into the directory
+have been installed locally, one can download ``pdpyras`` into the directory
 where it will be used.
 
 Authentication

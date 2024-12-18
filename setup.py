@@ -7,7 +7,10 @@ if __name__ == '__main__':
         name='pdpyras',
         description="PagerDuty Python REST API Sessions",
         long_description="A basic REST API client for PagerDuty based on Requests' Session class",
-        py_modules=['pdpyras'],
+        packages=['pdpyras'],
+        package_data={
+            'pdpyras': ['py.typed']
+        },
         version=__version__,
         license='MIT',
         url='https://pagerduty.github.io/pdpyras',
